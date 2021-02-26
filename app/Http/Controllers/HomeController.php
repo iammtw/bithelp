@@ -21,6 +21,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('trading.index');
+        return view('admin.index');
     }
 }

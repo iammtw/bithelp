@@ -3,11 +3,11 @@
    class="sidebar-brand d-flex align-items-center justify-content-center"
 href="{{ url('admin/dashboard') }}"
  >
-   <div class="sidebar-brand-text mx-3"> DWM </div>
+   <div class="sidebar-brand-text mx-3"> BITHELP </div>
  </a>
  <hr class="sidebar-divider my-0" />
  <li class="nav-item active">
-   <a class="nav-link" href="{{ url('admin/dashboard') }}">
+   <a class="nav-link" href="{{ url('admin') }}">
      <i class="fas fa-fw fa-tachometer-alt"></i>
      <span>Dashboard</span></a
    >
@@ -17,8 +17,6 @@ href="{{ url('admin/dashboard') }}"
  <div class="sidebar-heading">
    Works
  </div>
-
- <!-- Nav Item - Pages Collapse Menu -->
 
 
 
@@ -42,8 +40,8 @@ href="{{ url('admin/dashboard') }}"
   >
     <div class="bg-white py-2 collapse-inner rounded">
       <h6 class="collapse-header"> Add / Delete </h6>
-      <a class="collapse-item" href="{{ url('admin/add-product') }}">Add Services</a>
-      <a class="collapse-item" href=" {{ url('admin/products') }} ">View Services</a>
+      <a class="collapse-item" href="{{ url('admin/add-service') }}">Add Services</a>
+      <a class="collapse-item" href=" {{ url('admin/services') }} ">View Services</a>
     </div>
   </div>
 </li>
@@ -55,14 +53,14 @@ href="{{ url('admin/dashboard') }}"
 <li class="nav-item">
   <a class="nav-link" href="{{ url('admin/contact') }}">
     <i class="fas fa-fw fa-table"></i>
-    <span>Contact Us</span></a
+    <span>Contacts</span></a
   >
 </li>
 
 <li class="nav-item">
-  <a class="nav-link" href="{{ url('admin/about') }}">
+  <a class="nav-link" href="{{ url('admin/settings') }}">
     <i class="fas fa-fw fa-table"></i>
-    <span>About Us</span></a
+    <span>Settings</span></a
   >
 </li>
 

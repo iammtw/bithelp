@@ -28,19 +28,19 @@
   </head>
   <body id="page-top">
     <div id="wrapper">
-       @include('trading.layouts.common.sidebar')
+       @include('admin.layouts.common.sidebar')
       <div id="content-wrapper" class="d-flex flex-column">
         <div id="content">
-            @include('trading.layouts.common.navbar')
+            @include('admin.layouts.common.navbar')
             <div class="container-fluid">
                 @yield('content')
             </div>
         </div>   
-        @include('trading.layouts.common.footer')
+        @include('admin.layouts.common.footer')
       </div>
     </div>
 
-        @include('trading.layouts.common.js')
+        @include('admin.layouts.common.js')
 
       </body>
       </html>
