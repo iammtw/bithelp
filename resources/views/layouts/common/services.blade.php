@@ -23,7 +23,7 @@
                 </p>
               </div>
               <div style="padding-top: 50px">
-                <a href="#" class="button small primary">Buy now</a>
+                <a href="{{ url('contact') }}" class="button small primary">Buy now</a>
                 <a href="#" class="button small">${{$service->price}}</a>
               </div>
             </div>

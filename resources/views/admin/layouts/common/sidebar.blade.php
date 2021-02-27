@@ -47,9 +47,6 @@ href="{{ url('admin/dashboard') }}"
 </li>
 
 
-
-<hr class="sidebar-divider my-0" />
-
 <li class="nav-item">
   <a class="nav-link" href="{{ url('admin/contact') }}">
     <i class="fas fa-fw fa-table"></i>
@@ -57,9 +54,11 @@ href="{{ url('admin/dashboard') }}"
   >
 </li>
 
+<hr class="sidebar-divider" />
+
 <li class="nav-item">
   <a class="nav-link" href="{{ url('admin/settings') }}">
-    <i class="fas fa-fw fa-table"></i>
+    <i class="fas fa-fw fa-cog"></i>
     <span>Settings</span></a
   >
 </li>

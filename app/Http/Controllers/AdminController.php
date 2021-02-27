@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Contact;
 use App\Service;
 use App\Setting;
 use App\User;
@@ -12,7 +13,8 @@ class AdminController extends Controller
 {
     public function login()
     {
-        return view('admin.index');
+        $user = User::find(Auth::id());
+        return view('admin.index', compact('user'));
     }
 
     public function profile()
@@ -82,7 +84,7 @@ class AdminController extends Controller
     public function insertSettings(Request $req)
     {
         $setting = Setting::first();
-        if($setting == null){
+        if ($setting == null) {
             $setting = new Setting;
         }
         $setting->title = $req->title;
@@ -93,6 +95,12 @@ class AdminController extends Controller
         $setting->save();
 
         return redirect('admin/settings')->with('msg', 'Successfully Updated');
+    }
+
+    public function contacts()
+    {
+        $contacts = Contact::all();
+        return view('admin.contacts', compact('contacts'));
     }
 
 }

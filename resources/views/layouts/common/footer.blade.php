@@ -29,7 +29,7 @@
               <a href="#"><i class="icon fa-instagram">&nbsp;</i>Instagram</a>
             </li>
             <li>
-              <a href="https://www.fiverr.com/procrypto90" target="_blank"><i class="icon fa-eercast">&nbsp;</i>Fiverr</a>
+              <a href="https://www.fiverr.com/procrypto90" target="_blank"><i class="icon fa-fonticons">&nbsp;</i>Fiverr</a>
             </li>
           </ul>
         </section>

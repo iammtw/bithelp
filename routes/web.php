@@ -19,9 +19,12 @@ Route::post('/admin/change-password', 'AdminController@changePasswordUpdate')->m
 Route::get('admin/settings', 'AdminController@settings')->middleware('auth');
 Route::post('admin/settings', 'AdminController@insertSettings')->middleware('auth');
 
+Route::get('admin/contact', 'AdminController@contacts')->middleware('auth');
+
 // Frontend
 Route::get('/', 'NormalController@homepage');
 Route::get('/contact', 'NormalController@contact');
+Route::post('/contact', 'NormalController@insertContact');
 Route::get('/about', 'NormalController@about');
 
 Route::view('test', 'generic');
