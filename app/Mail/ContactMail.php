@@ -15,12 +15,16 @@ class ContactMail extends Mailable
      *
      * @return void
      */
-    public $message;
+    public $content;
     public $username;
-    public function __construct($message, $username)
+    public $subject;
+
+    public function __construct($content, $username, $subject)
     {
-        $this->message = $message;
+        $this->content = $content;
         $this->username = $username;
+        $this->subject = $subject;
+
     }
 
     /**
@@ -30,6 +34,6 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.contact');
+        return $this->subject($this->subject)->view('emails.contact');
     }
 }

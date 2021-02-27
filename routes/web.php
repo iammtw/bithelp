@@ -26,5 +26,3 @@ Route::get('/', 'NormalController@homepage');
 Route::get('/contact', 'NormalController@contact');
 Route::post('/contact', 'NormalController@insertContact');
 Route::get('/about', 'NormalController@about');
-
-Route::view('test', 'generic');

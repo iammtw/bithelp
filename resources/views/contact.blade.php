@@ -10,6 +10,9 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="assets/css/main.css" />
+      <link rel="icon" 
+    type="image/png" 
+    href="{{ url('favicon.png') }}">
   </head>
   <body>
       @include('layouts.common.banner')
@@ -28,14 +31,14 @@
                         <div class="row gtr-uniform">
 
                             <div class="col-6 col-12-xsmall">
-                                <input type="text" name="name" id="name" value="" placeholder="Name" />
+                                <input type="text" name="name" id="name" required value="" placeholder="Name" />
                             </div>
                             <div class="col-6 col-12-xsmall">
-                                <input type="email" name="email" id="email" value="" placeholder="Email" />
+                                <input type="email" name="email" id="email" value="" required placeholder="Email" />
                             </div>
                             <!-- Break -->
                             <div class="col-12">
-                                <select name="service" id="category">
+                                <select name="service" required id="category">
                                     <option value="" >- Select service -</option>
                                    
                                    @foreach ($services as $service)
@@ -46,7 +49,7 @@
                            
                             <!-- Break -->
                             <div class="col-12">
-                                <textarea name="message" id="textarea" placeholder="Enter your message here" rows="6"></textarea>
+                                <textarea name="message" required id="textarea" placeholder="Enter your message here" rows="6"></textarea>
                             </div>
                             <!-- Break -->
                             <div class="col-12">

@@ -45,13 +45,16 @@ class NormalController extends Controller
         The Staff Member from bithelp.online will contact you shortly. Thanks!";
 
         $commentForAdmin = "Your Client " . $name . " has order " . $service . " service on bithelp.online,
-        Please Contact him as soon as Possible. His/her email is " . $email;
+        Please Contact him as soon as Possible. His/her email is " . $email . ".";
+
+        $subjectForUser = "Bithelp Alert";
+        $subjectForAdmin = "New Client Request";
 
         $adminMail = "naaimsajjad@gmail.com";
         $adminName = "Naaim";
 
-        Mail::to($email)->send(new ContactMail($commnetForUser, $name));
-        Mail::to($adminMail)->send(new ContactMail($commentForAdmin, $adminName));
+        Mail::to($email)->send(new ContactMail($commnetForUser, $name, $subjectForUser));
+        Mail::to($adminMail)->send(new ContactMail($commentForAdmin, $adminName, $subjectForAdmin));
 
         return redirect()
             ->back()

@@ -66,78 +66,10 @@
                           border-right: 0px solid transparent;
                           border-bottom: 0px solid transparent;
                         "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_divider_2"
-                          class="u_content_divider"
-                          style="font-family: 'Lato', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 15px;
-                                  font-family: 'Lato', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <table
-                                  height="0px"
-                                  align="center"
-                                  border="0"
-                                  cellpadding="0"
-                                  cellspacing="0"
-                                  width="100%"
-                                  style="
-                                    border-collapse: collapse;
-                                    table-layout: fixed;
-                                    border-spacing: 0;
-                                    mso-table-lspace: 0pt;
-                                    mso-table-rspace: 0pt;
-                                    vertical-align: top;
-                                    border-top: 1px solid #f2f2f2;
-                                    -ms-text-size-adjust: 100%;
-                                    -webkit-text-size-adjust: 100%;
-                                  "
-                                >
-                                  <tbody>
-                                    <tr style="vertical-align: top">
-                                      <td
-                                        style="
-                                          word-break: break-word;
-                                          border-collapse: collapse !important;
-                                          vertical-align: top;
-                                          font-size: 0px;
-                                          line-height: 0px;
-                                          mso-line-height-rule: exactly;
-                                          -ms-text-size-adjust: 100%;
-                                          -webkit-text-size-adjust: 100%;
-                                        "
-                                      >
-                                        <span>&#160;</span>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
+                      >
                       </div>
-                      <!--<![endif]-->
                     </div>
                   </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
                 </div>
               </div>
             </div>
@@ -176,7 +108,7 @@
                     "
                   >
                     <div style="width: 100% !important">
-                      <!--[if (!mso)&(!IE)]><!--><div
+                    <div
                         style="
                           padding: 0px;
                           border-top: 0px solid transparent;
@@ -184,7 +116,7 @@
                           border-right: 0px solid transparent;
                           border-bottom: 0px solid transparent;
                         "
-                      ><!--<![endif]-->
+                      >
                         <table
                           id="u_content_image_1"
                           class="u_content_image"
@@ -343,7 +275,7 @@
                                         font-family: Lato, sans-serif;
                                       "
                                     >
-                                      {{ $action }}</span
+                                    Bithelp Order  </span
                                     >
                                   </p>
                                 </div>
@@ -462,7 +394,7 @@
                                           line-height: 25.2px;
                                         "
                                       >
-                                        {!! $message !!}.</span
+                                      {{$content}}.</span
                                       ></span
                                     >
                                     <br />
@@ -546,7 +478,7 @@
                     "
                   >
                     <div style="width: 100% !important">
-                      <!--[if (!mso)&(!IE)]><!--><div
+                     <div
                         style="
                           padding: 0px;
                           border-top: 0px solid transparent;
@@ -554,70 +486,51 @@
                           border-right: 0px solid transparent;
                           border-bottom: 0px solid transparent;
                         "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_divider_1"
-                          class="u_content_divider"
-                          style="font-family: 'Lato', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 15px;
-                                  font-family: 'Lato', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <table
-                                  height="0px"
-                                  align="center"
-                                  border="0"
-                                  cellpadding="0"
-                                  cellspacing="0"
-                                  width="100%"
-                                  style="
-                                    border-collapse: collapse;
-                                    table-layout: fixed;
-                                    border-spacing: 0;
-                                    mso-table-lspace: 0pt;
-                                    mso-table-rspace: 0pt;
-                                    vertical-align: top;
-                                    border-top: 1px solid #1c103b;
-                                    -ms-text-size-adjust: 100%;
-                                    -webkit-text-size-adjust: 100%;
-                                  "
-                                >
-                                  <tbody>
-                                    <tr style="vertical-align: top">
-                                      <td
-                                        style="
-                                          word-break: break-word;
-                                          border-collapse: collapse !important;
-                                          vertical-align: top;
-                                          font-size: 0px;
-                                          line-height: 0px;
-                                          mso-line-height-rule: exactly;
-                                          -ms-text-size-adjust: 100%;
-                                          -webkit-text-size-adjust: 100%;
-                                        "
-                                      >
-                                        <span>&#160;</span>
-                                      </td>
-                                    </tr>
-                                  </tbody>
-                                </table>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
+                      >
+                      <table id="u_content_divider_1" class="u_content_divider" style="font-family: 'Lato', sans-serif" role="presentation"
+                      cellpadding="0" cellspacing="0" width="100%" border="0" >
+                      <tbody>
+                        <tr>
+                          <td style="overflow-wrap: break-word;word-break: break-word;padding: 15px;font-family: 'Lato', sans-serif;"align="left">
+                            <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0"
+                      width="100%"
+                              style="
+                                border-collapse: collapse;
+                                table-layout: fixed;
+                                border-spacing: 0;
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                                vertical-align: top;
+                                border-top: 1px solid #1c103b;
+                                -ms-text-size-adjust: 100%;
+                                -webkit-text-size-adjust: 100%;
+                              "
+                            >
+                              <tbody>
+                                <tr style="vertical-align: top">
+                                  <td
+                                    style="
+                                      word-break: break-word;
+                                      border-collapse: collapse !important;
+                                      vertical-align: top;
+                                      font-size: 0px;
+                                      line-height: 0px;
+                                      mso-line-height-rule: exactly;
+                                      -ms-text-size-adjust: 100%;
+                                      -webkit-text-size-adjust: 100%;
+                                    "
+                                  >
+                                    <span>
+                                        Bithelp Order
+                                    </span>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                      </table>
                       </div>
                     </div>
                   </div>
@@ -649,9 +562,6 @@
                     background-color: #f2f2f2;
                   "
                 >
-                  <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:600px;"><tr style="background-color: #F2F2F2;"><![endif]-->
-
-                  <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
                   <div
                     class="u-col u-col-100"
                     style="
@@ -670,49 +580,10 @@
                           border-right: 0px solid transparent;
                           border-bottom: 0px solid transparent;
                         "
-                      ><!--<![endif]-->
-                        <table
-                          id="u_content_text_11"
-                          class="u_content_text"
-                          style="font-family: 'Lato', sans-serif"
-                          role="presentation"
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          border="0"
-                        >
-                          <tbody>
-                            <tr>
-                              <td
-                                style="
-                                  overflow-wrap: break-word;
-                                  word-break: break-word;
-                                  padding: 0px 40px 30px 20px;
-                                  font-family: 'Lato', sans-serif;
-                                "
-                                align="left"
-                              >
-                                <div
-                                  class="v-text-align"
-                                  style="
-                                    color: #000000;
-                                    line-height: 140%;
-                                    text-align: left;
-                                    word-wrap: break-word;
-                                  "
-                                ></div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-
-                        <!--[if (!mso)&(!IE)]><!-->
+                      >   
                       </div>
-                      <!--<![endif]-->
                     </div>
-                  </div>
-                  <!--[if (mso)|(IE)]></td><![endif]-->
-                  <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+                  </div> 
                 </div>
               </div>
             </div>
