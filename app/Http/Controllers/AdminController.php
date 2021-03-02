@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
+use App\Faq;
 use App\Service;
 use App\Setting;
 use App\User;
@@ -101,6 +102,19 @@ class AdminController extends Controller
     {
         $contacts = Contact::all();
         return view('admin.contacts', compact('contacts'));
+    }
+
+    public function addFaq()
+    {
+        return view('admin.faq');
+    }
+    public function insertFaq(Request $req)
+    {
+        $faq = new Faq;
+        $faq->question = $req->question;
+        $faq->answer = $req->answer;
+        $faq->save();
+        return redirect()->back()->with('msg', 'Successfully Added!');
     }
 
 }

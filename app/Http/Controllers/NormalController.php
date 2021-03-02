@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
+use App\Faq;
 use App\Mail\ContactMail;
 use App\Service;
 use App\Setting;
@@ -59,5 +60,12 @@ class NormalController extends Controller
         return redirect()
             ->back()
             ->with('msg', 'Your Order is Successfully Generated! Our Staff Member will Contact you shortly!');
+    }
+
+    public function faq()
+    {
+        $faqs = Faq::all();
+        $setting = Setting::first();
+        return view('faq', compact('faqs', 'setting'));
     }
 }

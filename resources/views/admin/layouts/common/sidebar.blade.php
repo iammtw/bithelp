@@ -53,6 +53,12 @@ href="{{ url('admin/dashboard') }}"
     <span>Contacts</span></a
   >
 </li>
+<li class="nav-item">
+  <a class="nav-link" href="{{ url('admin/faq') }}">
+    <i class="fas fa-fw fa-question-circle"></i>
+    <span>FAQs</span></a
+  >
+</li>
 
 <hr class="sidebar-divider" />
 

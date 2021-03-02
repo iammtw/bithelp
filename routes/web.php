@@ -21,8 +21,14 @@ Route::post('admin/settings', 'AdminController@insertSettings')->middleware('aut
 
 Route::get('admin/contact', 'AdminController@contacts')->middleware('auth');
 
+Route::get('admin/faq', 'AdminController@addFaq')->middleware('auth');
+Route::post('admin/faq', 'AdminController@insertFaq')->middleware('auth');
+
 // Frontend
 Route::get('/', 'NormalController@homepage');
 Route::get('/contact', 'NormalController@contact');
 Route::post('/contact', 'NormalController@insertContact');
 Route::get('/about', 'NormalController@about');
+Route::get('/faq', 'NormalController@faq');
+
+Route::view('/test', 'elements');
